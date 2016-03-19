@@ -1,0 +1,200 @@
+/*-----------------------------------------------------*/
+
+
+/* General */
+
+
+/*-----------------------------------------------------*/
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.column {
+    position: relative;
+    padding: 0 15px;
+}
+
+body {
+    font-family:
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+	background: whitesmoke;
+}
+
+/*-----------------------------------------------------*/
+
+
+/* Sections */
+
+
+/*-----------------------------------------------------*/
+
+.section {
+    padding: 4% 0;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/* Backgrounds */
+
+
+/*-----------------------------------------------------*/
+
+.bgc-green {
+    background: rgba(190, 232, 65, 1);
+    background: -moz-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(190, 232, 65, 1)), color-stop(100%, rgba(149, 173, 12, 1)));
+    background: -webkit-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -o-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: linear-gradient(to bottom, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bee841', endColorstr='#95ad0c', GradientType=0);
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bgc-btn {
+    background-color: #5CB85C;
+}
+
+
+/**** ROSU ***/
+
+.navbar-default {
+    background: rgba(190, 232, 65, 1);
+    background: -moz-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(190, 232, 65, 1)), color-stop(100%, rgba(149, 173, 12, 1)));
+    background: -webkit-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -o-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: linear-gradient(to bottom, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bee841', endColorstr='#95ad0c', GradientType=0);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background: rgba(190, 232, 65, 1);
+    background: -moz-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(190, 232, 65, 1)), color-stop(100%, rgba(149, 173, 12, 1)));
+    background: -webkit-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -o-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    background: linear-gradient(to bottom, rgba(190, 232, 65, 1) 0%, rgba(149, 173, 12, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bee841', endColorstr='#95ad0c', GradientType=0);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #4A4747;
+}
+
+.black {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+.customer-label {
+    color: #AFACAC;
+}
+
+.full {
+    padding: 0px;
+}
+
+h3.title {
+    padding: 20px;
+}
+
+.hero-unit {
+    background-image: url('http://placehold.it/1650x300');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-position: 50%;
+    /*  background-color: #EEEEEE;
+   height:300px;
+   padding: 0px;
+   margin-top: 0px; */
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+
+
+/**** andrei **/
+
+.footer-top {
+    border-top: 1px solid lightgrey;
+}
+
+.footer-top h3 {
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.thumbnail-container {
+    padding-bottom: 10px;
+}
+
+.about {
+    font-weight: bold;
+    color: #626262;
+}
+
+.full-img {
+    width: 100%;
+}
+
+.img-media {
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+.copyright {
+    color: #626262;
+    background-color: #191919;
+    min-height: 70px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.copyright > .row {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .right {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .left {
+        text-align: center;
+    }
+}
