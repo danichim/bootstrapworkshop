@@ -25,6 +25,9 @@ body {
     font-family:
 }
 
+.flp {
+	padding-left: 20px;
+}
 
 .navbar-default .navbar-nav>li>a:hover {
 	background: whitesmoke;
@@ -196,5 +199,8 @@ h3.title {
     }
     .left {
         text-align: center;
+    }
+    .flp {
+    	padding-left: 50px;
     }
 }
